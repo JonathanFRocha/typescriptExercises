@@ -50,7 +50,7 @@ words.forEach((e) => {
 
 let number = [-10, -1, 12];
 
-let numberAboveZero = false;
+let numberAboveZero: boolean | number = false;
 
 number.forEach((e) => {
   if (e > 0) {
