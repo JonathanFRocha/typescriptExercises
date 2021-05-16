@@ -28,7 +28,7 @@ export class Model<T extends HasId> {
   ) {}
 
   on = this.events.on;
-  trigget = this.events.trigger;
+  trigger = this.events.trigger;
   get = this.attributes.get;
 
   set(update: T): void {
