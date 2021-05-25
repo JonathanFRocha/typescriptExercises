@@ -8,9 +8,3 @@ class Vehicle {
     console.log("beeep");
   }
 }
-
-class Car extends Vehicle {
-  protected drive(): void {
-    console.log("vrrooooom");
-  }
-}
